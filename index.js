@@ -1,7 +1,7 @@
 import express from "express";
 import mongoose from "mongoose";
 import fileUpload from "express-fileupload";
-import router from "./router.js";
+import router from "./router/router.js";
 
 const PORT = 5000;
 const DB_URL =

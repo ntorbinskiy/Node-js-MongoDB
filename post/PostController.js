@@ -1,4 +1,4 @@
-import PostService from "./PostService.js";
+import PostService from "../services/PostService.js";
 
 const serverError = (e, res) => res.status(500).json(e.message);
 

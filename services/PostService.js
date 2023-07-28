@@ -1,4 +1,4 @@
-import Post from "./Post.js";
+import Post from "../post/Post.js";
 import fileService from "./FileService.js";
 
 const throwError = () => {
